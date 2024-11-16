@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Photography Portfolio</title>
+    <style>
+      
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+       
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url(https://res.cloudinary.com/dpvjh6v9b/image/upload/v1731775214/1_tr6p5o.png) center/cover no-repeat;
+            height: 100vh;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .hero a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .hero a:hover {
+            background-color: white;
+            color: #333;
+        }
+
+      
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio img:hover {
+            transform: scale(1.05);
+        }
+
+    
+        .contact {
+            text-align: center;
+            padding: 40px;
+            background-color: #333;
+            color: white;
+        }
+
+        .contact h2 {
+            font-size: 2rem;
+        }
+
+        .contact p {
+            margin: 10px 0;
+        }
+
+        .contact a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+     
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #111;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <div class="hero">
+        <div>
+            <h1>Harsha Vardhan uppalapati</h1>
+            <p>Photographer</p>
+            <a href="#portfolio">View Portfolio</a>
+        </div>
+    </div>
+
+  
+    <section id="portfolio" class="portfolio">
+        <img src="https://res.cloudinary.com/dpvjh6v9b/image/upload/v1731776172/IMG_0065_2_fk5uhm.png">
+        <img src="https://res.cloudinary.com/dpvjh6v9b/image/upload/v1731776336/IMG_042_boyfhq.png">
+        <img src="https://res.cloudinary.com/dpvjh6v9b/image/upload/v1731776477/IMG_0339_iic2ky.png">
+        <img src="https://res.cloudinary.com/dpvjh6v9b/image/upload/v1731776534/IMG_0034_yfw24a.png">
+        <img src="https://res.cloudinary.com/dpvjh6v9b/image/upload/v1731776744/IMG_0318_ov14gl.png">
+        <img src="https://res.cloudinary.com/dpvjh6v9b/image/upload/v1731776830/IMG_0510_d2xnhc.png">
+        <img src="https://res.cloudinary.com/dpvjh6v9b/image/upload/v1731777071/IMG_0721_jp8rra.png">
+        <img src="https://res.cloudinary.com/dpvjh6v9b/image/upload/v1731777377/20230828194137__MG_01_nqerb2.png">
+    </section>
+
+ 
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>On <a href="https://www.instagram.com/shutters_by_harsha/profilecard/?igsh=NzUwOGN0aDV0em80">Instagram</a></p>
+    </section>
+
+ 
+    <footer>
+        &copy; 2024 Shutters.By.Harsha. All rights reserved.
+    </footer>
+
+</body>
+</html>
+
+
